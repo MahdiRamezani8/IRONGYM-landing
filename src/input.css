@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #MB-menu.active {
+    @apply !right-0;
+  }
+}
+
+#CTA-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #f00;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  z-index: -5;
+}
+
+#CTA::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #000;
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+  z-index: -5;
+}

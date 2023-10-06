@@ -1,0 +1,17 @@
+{
+  "name": "iron-gym",
+  "version": "1.0.0",
+  "description": "a gym landing page",
+  "main": "index.js",
+  "scripts": {
+    "watch:project": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "mahdi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "swiper": "^10.3.1"
+  }
+}

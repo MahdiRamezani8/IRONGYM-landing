@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRON GYM</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="font-bold">
+    <header
+      class="w-full h-screen relative flex items-center justify-center bg-hero bg-fixed bg-[70%] bg-no-repeat bg-cover z-10 before:contents-[''] before:block before:w-full before:absolute before:h-screen before:bg-gradient before:opacity-75 before:z-[-5]"
+    >
+      <nav
+        class="w-full fixed bg-dargRGBA !z-[1000] px-6 py-4 top-0 flex justify-between items-center text-white"
+      >
+        <span>IRON <span class="text-red">GYM</span></span>
+        <ul
+          class="fixed top-10 right-[-100%] py-4 px-8 space-y-4 rounded-lg bg-gradient duration-300"
+          id="MB-menu"
+        >
+          <li class="pb-2 text-center border-b-4 border-b-red border-solid">
+            <a href="#">HOME</a>
+          </li>
+          <li class="pb-2 text-center">
+            <a href="#">SERVICES</a>
+          </li>
+          <li class="pb-2 text-center">
+            <a href="#">TRAINERS</a>
+          </li>
+          <li class="pb-2 text-center">
+            <a href="#">TESTIMONIAL</a>
+          </li>
+          <li class="pb-2 text-center">
+            <a href="#">CONTACT US</a>
+          </li>
+        </ul>
+        <ul class="hidden gap-3 md:flex">
+          <li class="relative duration-300 hover:-translate-y-1 active:-translate-y-0.5 after:content-[''] after:block after:absolute after:w-full after:h-1 after:rounded-sm after:bg-red after:-bottom-2 after:scale-0 after:duration-300 hover:after:scale-100"><a href="#">HOME</a></li>
+          <li class="relative duration-300 hover:-translate-y-1 active:-translate-y-0.5 after:content-[''] after:block after:absolute after:w-full after:h-1 after:rounded-sm after:bg-red after:-bottom-2 after:scale-0 after:duration-300 hover:after:scale-100"><a href="#">SERVICES</a></li>
+          <li class="relative duration-300 hover:-translate-y-1 active:-translate-y-0.5 after:content-[''] after:block after:absolute after:w-full after:h-1 after:rounded-sm after:bg-red after:-bottom-2 after:scale-0 after:duration-300 hover:after:scale-100"><a href="#">TRAINERS</a></li>
+          <li class="relative duration-300 hover:-translate-y-1 active:-translate-y-0.5 after:content-[''] after:block after:absolute after:w-full after:h-1 after:rounded-sm after:bg-red after:-bottom-2 after:scale-0 after:duration-300 hover:after:scale-100"><a href="#">TESTIMONIAL</a></li>
+          <li class="relative duration-300 hover:-translate-y-1 active:-translate-y-0.5 after:content-[''] after:block after:absolute after:w-full after:h-1 after:rounded-sm after:bg-red after:-bottom-2 after:scale-0 after:duration-300 hover:after:scale-100"><a href="#">CONTACT US</a></li>
+        </ul>
+        <i class="cursor-pointer md:!hidden fa fa-navicon" id="toggle-menu"></i>
+      </nav>
+      <section class="px-4 space-y-4 md:w-1/2">
+        <h1 class="text-white text-4xl md:text-5xl">
+          READY TO TRAIN
+          <br />
+          <span class="text-red">YOUR BODY</span>
+        </h1>
+        <p class="text-sm text-white font-light">
+          Gym training is a structured and disciplined approach to physical
+          exercise that <br />
+          focuses on strength, endurance and overall fitness improvement.
+        </p>
+        <br />
+        <a
+          href="#"
+          class="border-red border-2 border-solid p-4 text-red duration-300 mt-12 hover:bg-red hover:text-white"
+          >LEST JOIN NOW</a
+        >
+        <br />
+        <br />
+        <div
+          class="flex flex-col items-center space-y-4 sm:space-y-0 sm:flex-row"
+        >
+          <span class="flex flex-col items-center px-4">
+            <span class="text-red text-3xl">20+</span>
+            <span class="text-white font-light">Years of Experience</span>
+          </span>
+          <span
+            class="flex flex-col items-center p-4 border-solid border-y-2 border-white sm:border-y-0 sm:border-x-2"
+          >
+            <span class="text-red text-3xl">15K+</span>
+            <span class="text-white font-light">Members Join</span>
+          </span>
+          <span class="flex flex-col items-center px-4">
+            <span class="text-red text-3xl">14K+</span>
+            <span class="text-white font-light">Happy members</span>
+          </span>
+        </div>
+      </section>
+      <section class="w-full lg:w-1/3 hidden md:block">
+        <img src="images/hero-2.png" alt="hero-2 image" class="w-full" />
+      </section>
+    </header>
+    <section
+      class="w-full bg-darkGray flex flex-col items-center justify-center py-8 md:h-screen"
+    >
+      <div class="text-center">
+        <h2 class="text-4xl md:text-5xl text-white">
+          WHY <span class="text-red">CHOOSE US</span>
+        </h2>
+        <br />
+        <p class="text-white font-light">
+          Gym workouts offer a versatile and customisable experience,
+          <br />
+          allowing everyone to set specific fitness goals.
+        </p>
+      </div>
+      <div
+        class="flex flex-col mt-4 px-4 md:flex-row md:flex-wrap md:justify-center"
+      >
+        <span
+          class="w-full p-4 border-solid border-[1px] border-red md:w-[45%] my-4 md:mx-2"
+        >
+          <h3 class="text-white text-3xl font-normal mb-6">01</h3>
+          <span class="text-red text-2xl">Personal Training</span>
+          <p class="text-white font-light">
+            Our gyms offer personalized training sessions with certified
+            personal trainers who create customized workout plans based on
+            individual goals
+          </p>
+        </span>
+
+        <span
+          class="w-full p-4 border-solid border-[1px] border-red md:w-[45%] my-4 md:mx-2"
+        >
+          <h3 class="text-white text-3xl font-normal mb-6">02</h3>
+          <span class="text-red text-2xl">Equipment and facilities</span>
+          <p class="text-white font-light">
+            Our gyms offer personalized training sessions with certified
+            personal trainers who create customized workout plans based on
+            individual goals
+          </p>
+        </span>
+
+        <span
+          class="w-full p-4 border-solid border-[1px] border-red md:w-[45%] my-4 md:mx-2"
+        >
+          <h3 class="text-white text-3xl font-normal mb-6">03</h3>
+          <span class="text-red text-2xl">speciality programs</span>
+          <p class="text-white font-light">
+            Our gyms offer personalized training sessions with certified
+            personal trainers who create customized workout plans based on
+            individual goals
+          </p>
+        </span>
+
+        <span
+          class="w-full p-4 border-solid border-[1px] border-red md:w-[45%] my-4 md:mx-2"
+        >
+          <h3 class="text-white text-3xl font-normal mb-6">04</h3>
+          <span class="text-red text-2xl">nutrition counseling</span>
+          <p class="text-white font-light">
+            Our gyms offer personalized training sessions with certified
+            personal trainers who create customized workout plans based on
+            individual goals
+          </p>
+        </span>
+      </div>
+    </section>
+    <section
+      class="w-full bg-experience bg-[50%] bg-fixed bg-cover bg-no-repeat relative flex items-center md:h-screen md:flex-row z-[5] before:contents-[''] before:block before:w-full before:absolute before:h-full before:bg-darkGradient before:opacity-75 before:z-[-5]"
+    >
+      <div
+        class="w-full p-4 flex flex-col items-center md:flex-row md:justify-evenly"
+      >
+        <div class="md:w-1/2">
+          <h2 class="text-white text-5xl md:text-6xl">
+            WE HAVE A LOT OF <br />
+            <span class="text-red">EXPERIENCE</span>
+          </h2>
+          <br />
+          <p class="text-white font-light">
+            In quisque nunc dictumst etiam pellentesque et. Vel malesuada diam
+            lorem tellus. Amet mauris feugiat ipsum natoque odio donec. Sit at
+            lacus consequat justo odio condimentum dui. Faucibus id blandit
+            feugiat mi tellus sit etiam donec aliquam. Dictumst egestas ut
+            facilisi vel.
+            <br />
+            <br />
+            Sem consequat fermentum pellentesque risus purus quis gravida. Nulla
+            porttitor ultrices facilisis non commodo diam morbi cursus eu.
+            Semper ut in mauris gravida id cursus urna. Magnis vulputate orci
+            risus felis eget lectus morbi. Et cursus mauris condimentum pretium
+            arcu sed dignissim.
+          </p>
+          <br />
+          <br />
+          <a
+            href="#"
+            class="border-red border-2 border-solid p-4 text-red duration-300 hover:bg-red hover:text-white"
+            >ABOUT US
+          </a>
+        </div>
+
+        <div class="relative w-2/3 sm:w-auto mt-20 mb-8 md:my-0">
+          <span
+            class="w-full h-full absolute z-[-1] border-solid border-2 border-red top-[-15px] left-[-15px] lg:top-[-40px] lg:left-[-40px]"
+          ></span>
+          <img
+            src="images/experience-her.png"
+            alt="experience-hero"
+            class="z-10"
+          />
+          <span
+            class="w-full h-full absolute z-[-1] border-solid border-4 border-white top-[15px] left-[15px] lg:top-[40px] lg:left-[40px]"
+          ></span>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="px-2 py-8 w-full bg-darkGray flex flex-col items-center md:h-screen"
+    >
+      <div class="text-center">
+        <h2 class="text-white text-4xl md:text-5xl">
+          OUR PROFESSIONAL <br />
+          <span class="text-red block py-2">TRAINERS</span>
+        </h2>
+        <p class="text-white text-sm font-light">
+          Whether you're looking to set up a home gym or enhance your current
+          workout routine
+        </p>
+      </div>
+      <div
+        class="w-full flex flex-col items-center mt-8 space-y-4 md:w-4/5 sm2x:flex-row sm2x:justify-between sm2x:space-y-0 sm2x:space-x-4"
+      >
+        <div
+          class="relative flex items-end justify-center overflow-hidden border-2 border-red border-solid"
+        >
+          <img src="images/trainer1.png" alt="trainer1" />
+          <div
+            class="absolute h-full w-full duration-200 bottom-[-70%] bg-gradientToBottom flex flex-col items-center py-4 cursor-pointer hover:justify-center hover:bottom-0"
+          >
+            <h3 class="text-white text-2xl">Borney Exiteid</h3>
+            <h6 class="text-white font-light text-xl mt-4">Rate Trainer :</h6>
+            <img src="images/stars.svg" alt="5 star" />
+          </div>
+        </div>
+        <div
+          class="relative flex items-end justify-center overflow-hidden border-2 border-red border-solid"
+        >
+          <img src="images/trainer2.png" alt="trainer2" />
+          <div
+            class="absolute h-full w-full duration-200 bottom-[-70%] bg-gradientToBottom flex flex-col items-center py-4 cursor-pointer hover:justify-center hover:bottom-0"
+          >
+            <h3 class="text-white text-2xl">Elsa windia</h3>
+            <h6 class="text-white font-light text-xl mt-4">Rate Trainer :</h6>
+            <img src="images/stars.svg" alt="5 star" />
+          </div>
+        </div>
+        <div
+          class="relative flex items-end justify-center overflow-hidden border-2 border-red border-solid"
+        >
+          <img src="images/trainer3.png" alt="trainer3" class="object-cover" />
+          <div
+            class="absolute h-full w-full duration-200 bottom-[-70%] bg-gradientToBottom flex flex-col items-center py-4 cursor-pointer hover:justify-center hover:bottom-0"
+          >
+            <h3 class="text-white text-2xl">Geourge aryo</h3>
+            <h6 class="text-white font-light text-xl mt-4">Rate Trainer :</h6>
+            <img src="images/stars.svg" alt="5 star" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full h-screen relative bg-comments bg-cover bg-fixed bg-[50%] before:contents-[''] before:block before:w-full before:h-full before:absolute before:bg-dargRGBA"
+    >
+      <div class="flex flex-col items-center text-center p-4">
+        <div class="z-50 w-full md:w-1/2">
+          <h2 class="text-white text-4xl mb-8">
+            WHAT <span class="text-red">CLIENTS SAY</span> WHIT US
+          </h2>
+          <p class="text-white font-light text-sm">
+            "I am extremely grateful for the positive impact gym training has
+            had on my life; through consistent training, expert guidance from
+            coaches, and access to top-notch facilities, I have witnessed a
+            remarkable transformation in strength, endurance, and overall
+            fitness levels."
+          </p>
+        </div>
+
+        <div class="swiper mySwiper container mt-12 md:mt-24">
+          <div class="swiper-wrapper w-full">
+            <div class="swiper-slide w-full !flex flex-col items-center">
+              <img src="images/stars.svg" alt="stars" class="mb-8" />
+              <h4 class="text-white text-3xl mb-4 md:text-4xl md:mb-6">
+                Jhony breaker
+              </h4>
+              <img
+                src="images/profile.png"
+                alt="ptofile"
+                class="border-2 border-red border-solid w-24 md:w-32"
+              />
+            </div>
+            <div class="swiper-slide w-full !flex flex-col items-center">
+              <img src="images/stars.svg" alt="stars" class="mb-8" />
+              <h4 class="text-white text-3xl mb-4 md:text-4xl md:mb-6">
+                Thomas shelby
+              </h4>
+              <img
+                src="images/prifile2.jpg"
+                alt="ptofile"
+                class="border-2 border-red border-solid w-24 md:w-32"
+              />
+            </div>
+            <div class="swiper-slide w-full !flex flex-col items-center">
+              <img src="images/stars.svg" alt="stars" class="mb-8" />
+              <h4 class="text-white text-3xl mb-4 md:text-4xl md:mb-6">
+                King Ragnar
+              </h4>
+              <img
+                src="images/profile3.webp"
+                alt="ptofile"
+                class="border-2 border-red border-solid w-24 md:w-32"
+              />
+            </div>
+          </div>
+          <div
+            class="absolute w-full !z-[100] flex justify-between top-[50%] translate-y-[-50%]"
+          >
+            <div class="swiper-button-next-cu translate-x-4 cursor-pointer">
+              <div class="w-[5px] h-6 rounded-lg bg-white rotate-45"></div>
+              <div
+                class="w-[5px] h-6 rounded-lg bg-white -rotate-45 -translate-y-2"
+              ></div>
+            </div>
+            <div class="swiper-button-prev-cu -translate-x-4 cursor-pointer">
+              <div class="w-[5px] h-6 rounded-lg bg-white -rotate-45"></div>
+              <div
+                class="w-[5px] h-6 rounded-lg bg-white rotate-45 -translate-y-2"
+              ></div>
+            </div>
+          </div>
+          <br /><br /><br />
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full bg-darkGray flex justify-center items-center py-8 lg:h-screen"
+    >
+      <div
+        id="CTA-container"
+        class="relative w-full h-[650px] z-10 flex items-center justify-center md:w-4/5 lg:h-[520px]"
+      >
+        <div
+          id="CTA"
+          class="relative z-10 w-[calc(100%-15px)] h-[calc(100%-15px)]"
+        >
+          <div
+            class="relative overflow-hidden h-full w-full flex flex-col items-center lg:flex-row lg:justify-end lg:overflow-visible"
+          >
+            <img
+              src="images/get-started.png"
+              alt="get-started"
+              class="absolute w-64 bottom-[-17%] sm2x:w-80 lg:bottom-0 lg:w-[40%] lg:left-10"
+            />
+            <div class="text-center lg:w-1/3 lg:mr-[10%]">
+              <h1 class="text-white text-3xl">
+                LET'S START GYM <span class="text-red">TRAININIG NOW</span>
+              </h1>
+              <p class="text-white text-sm font-light">
+                get 50% off the first three classes you sign up for this month
+                any GYM membership
+              </p>
+              <div
+                class="pt-4 px-10 grid grid-cols-1 gap-y-4 lg:grid-cols-2 lg:px-0"
+              >
+                <input
+                  type="text"
+                  class="p-2 bg-transparent border-2 border-solid border-white font-light lg:col-span-2"
+                  placeholder="Name ..."
+                />
+                <input
+                  type="text"
+                  class="p-2 bg-transparent border-2 border-solid border-white font-light lg:mr-1"
+                  placeholder="Phone ..."
+                />
+                <input
+                  type="text"
+                  class="p-2 bg-transparent border-2 border-solid border-white font-light lg:ml-1"
+                  placeholder="Email"
+                />
+                <button
+                  onclick="event.preventDefault()"
+                  class="border-red border-2 border-solid p-4 text-red duration-300 hover:bg-red hover:text-white"
+                >
+                  LETS JOIN NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="w-full bg-black text-white px-4">
+      <div class="flex flex-col items-center py-12 text-center">
+        <h2 class="text-3xl pb-4">IRON <span class="text-red">GYM</span></h2>
+        <ul class="flex flex-col gap-3 sm2x:flex-row">
+          <li
+            class="duration-300 hover:-translate-y-1 hover:text-red active:-translate-y-0.5"
+          >
+            <a href="#">HOME</a>
+          </li>
+          <li
+            class="duration-300 hover:-translate-y-1 hover:text-red active:-translate-y-0.5"
+          >
+            <a href="#">SERVICES</a>
+          </li>
+          <li
+            class="duration-300 hover:-translate-y-1 hover:text-red active:-translate-y-0.5"
+          >
+            <a href="#">TRAINERS</a>
+          </li>
+          <li
+            class="duration-300 hover:-translate-y-1 hover:text-red active:-translate-y-0.5"
+          >
+            <a href="#">TESTIMONIAL</a>
+          </li>
+          <li
+            class="duration-300 hover:-translate-y-1 hover:text-red active:-translate-y-0.5"
+          >
+            <a href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="flex flex-col items-center py-4 border-t-2 border-t-white md:flex-row md:justify-between"
+      >
+        <span>Developed by mahdi ramezani</span>
+        <span>&copy; 2023 All rights reserved. IronGym Company</span>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next-cu",
+          prevEl: ".swiper-button-prev-cu",
+        },
+      });
+    </script>
+  </body>
+</html>
+<!-- after:contents-[''] after:block after:w-full after:h-full after:absolute after:bg-black -->
