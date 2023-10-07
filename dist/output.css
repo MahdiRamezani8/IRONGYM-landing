@@ -572,6 +572,14 @@ video {
   right: 0px !important;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -582,6 +590,10 @@ video {
 
 .relative {
   position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .bottom-\[-17\%\] {
@@ -622,62 +634,6 @@ video {
 
 .top-\[50\%\] {
   top: 50%;
-}
-
-.top-\[-1px\] {
-  top: -1px;
-}
-
-.top-\[-2px\] {
-  top: -2px;
-}
-
-.top-\[-20px\] {
-  top: -20px;
-}
-
-.left-\[-px\] {
-  left: -px;
-}
-
-.left-\[-2px\] {
-  left: -2px;
-}
-
-.left-\[-20px\] {
-  left: -20px;
-}
-
-.left-\[-0px\] {
-  left: -0px;
-}
-
-.left-\[-40px\] {
-  left: -40px;
-}
-
-.top-\[-40px\] {
-  top: -40px;
-}
-
-.left-\[1px\] {
-  left: 1px;
-}
-
-.left-\[4px\] {
-  left: 4px;
-}
-
-.left-\[40px\] {
-  left: 40px;
-}
-
-.top-\[1px\] {
-  top: 1px;
-}
-
-.top-\[40px\] {
-  top: 40px;
 }
 
 .\!z-\[1000\] {
@@ -831,8 +787,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-1 {
@@ -998,6 +962,10 @@ video {
      object-fit: cover;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -1117,6 +1085,34 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .duration-200 {
@@ -1365,86 +1361,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:top-\[\] {
-    top: ;
-  }
-
-  .md\:top-\[2\] {
-    top: 2;
-  }
-
-  .md\:top-\[25\] {
-    top: 25;
-  }
-
-  .md\:top-\[25p\] {
-    top: 25p;
-  }
-
-  .md\:top-\[25px\] {
-    top: 25px;
-  }
-
-  .md\:left-\[\] {
-    left: ;
-  }
-
-  .md\:left-\[2\] {
-    left: 2;
-  }
-
-  .md\:left-\[25\] {
-    left: 25;
-  }
-
-  .md\:left-\[25p\] {
-    left: 25p;
-  }
-
-  .md\:left-\[25px\] {
-    left: 25px;
-  }
-
-  .md\:left-\[-25px\] {
-    left: -25px;
-  }
-
-  .md\:top-\[-25px\] {
-    top: -25px;
-  }
-
-  .md\:left-\[-1\] {
-    left: -1;
-  }
-
-  .md\:left-\[1\] {
-    left: 1;
-  }
-
-  .md\:top-\[-1\] {
-    top: -1;
-  }
-
-  .md\:top-\[1\] {
-    top: 1;
-  }
-
-  .md\:left-\[-15px\] {
-    left: -15px;
-  }
-
-  .md\:left-\[15px\] {
-    left: 15px;
-  }
-
-  .md\:top-\[-15px\] {
-    top: -15px;
-  }
-
-  .md\:top-\[15px\] {
-    top: 15px;
-  }
-
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -1540,20 +1456,20 @@ video {
     left: 2.5rem;
   }
 
-  .lg\:left-\[40px\] {
-    left: 40px;
-  }
-
-  .lg\:top-\[40px\] {
-    top: 40px;
-  }
-
   .lg\:left-\[-40px\] {
     left: -40px;
   }
 
+  .lg\:left-\[40px\] {
+    left: 40px;
+  }
+
   .lg\:top-\[-40px\] {
     top: -40px;
+  }
+
+  .lg\:top-\[40px\] {
+    top: 40px;
   }
 
   .lg\:col-span-2 {
